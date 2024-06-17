@@ -1,0 +1,622 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C9D150232C2089E5002FB8CD /* TicketDemoApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9D150222C2089E5002FB8CD /* TicketDemoApp.swift */; };
+		C9D150252C2089E5002FB8CD /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9D150242C2089E5002FB8CD /* ContentView.swift */; };
+		C9D150272C2089EA002FB8CD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C9D150262C2089EA002FB8CD /* Assets.xcassets */; };
+		C9D1502B2C2089EA002FB8CD /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C9D1502A2C2089EA002FB8CD /* Preview Assets.xcassets */; };
+		C9D150352C2089EB002FB8CD /* TicketDemoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9D150342C2089EB002FB8CD /* TicketDemoTests.swift */; };
+		C9D1503F2C2089EB002FB8CD /* TicketDemoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9D1503E2C2089EB002FB8CD /* TicketDemoUITests.swift */; };
+		C9D150412C2089EB002FB8CD /* TicketDemoUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9D150402C2089EB002FB8CD /* TicketDemoUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		C9D150312C2089EB002FB8CD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C9D150172C2089E5002FB8CD /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C9D1501E2C2089E5002FB8CD;
+			remoteInfo = TicketDemo;
+		};
+		C9D1503B2C2089EB002FB8CD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C9D150172C2089E5002FB8CD /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C9D1501E2C2089E5002FB8CD;
+			remoteInfo = TicketDemo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		C9D1501F2C2089E5002FB8CD /* TicketDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TicketDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C9D150222C2089E5002FB8CD /* TicketDemoApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TicketDemoApp.swift; sourceTree = "<group>"; };
+		C9D150242C2089E5002FB8CD /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		C9D150262C2089EA002FB8CD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		C9D150282C2089EA002FB8CD /* TicketDemo.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = TicketDemo.entitlements; sourceTree = "<group>"; };
+		C9D1502A2C2089EA002FB8CD /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		C9D150302C2089EB002FB8CD /* TicketDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TicketDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C9D150342C2089EB002FB8CD /* TicketDemoTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TicketDemoTests.swift; sourceTree = "<group>"; };
+		C9D1503A2C2089EB002FB8CD /* TicketDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TicketDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C9D1503E2C2089EB002FB8CD /* TicketDemoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TicketDemoUITests.swift; sourceTree = "<group>"; };
+		C9D150402C2089EB002FB8CD /* TicketDemoUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TicketDemoUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C9D1501C2C2089E5002FB8CD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C9D1502D2C2089EB002FB8CD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C9D150372C2089EB002FB8CD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C9D150162C2089E5002FB8CD = {
+			isa = PBXGroup;
+			children = (
+				C9D150212C2089E5002FB8CD /* TicketDemo */,
+				C9D150332C2089EB002FB8CD /* TicketDemoTests */,
+				C9D1503D2C2089EB002FB8CD /* TicketDemoUITests */,
+				C9D150202C2089E5002FB8CD /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C9D150202C2089E5002FB8CD /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C9D1501F2C2089E5002FB8CD /* TicketDemo.app */,
+				C9D150302C2089EB002FB8CD /* TicketDemoTests.xctest */,
+				C9D1503A2C2089EB002FB8CD /* TicketDemoUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C9D150212C2089E5002FB8CD /* TicketDemo */ = {
+			isa = PBXGroup;
+			children = (
+				C9D150222C2089E5002FB8CD /* TicketDemoApp.swift */,
+				C9D150242C2089E5002FB8CD /* ContentView.swift */,
+				C9D150262C2089EA002FB8CD /* Assets.xcassets */,
+				C9D150282C2089EA002FB8CD /* TicketDemo.entitlements */,
+				C9D150292C2089EA002FB8CD /* Preview Content */,
+			);
+			path = TicketDemo;
+			sourceTree = "<group>";
+		};
+		C9D150292C2089EA002FB8CD /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				C9D1502A2C2089EA002FB8CD /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		C9D150332C2089EB002FB8CD /* TicketDemoTests */ = {
+			isa = PBXGroup;
+			children = (
+				C9D150342C2089EB002FB8CD /* TicketDemoTests.swift */,
+			);
+			path = TicketDemoTests;
+			sourceTree = "<group>";
+		};
+		C9D1503D2C2089EB002FB8CD /* TicketDemoUITests */ = {
+			isa = PBXGroup;
+			children = (
+				C9D1503E2C2089EB002FB8CD /* TicketDemoUITests.swift */,
+				C9D150402C2089EB002FB8CD /* TicketDemoUITestsLaunchTests.swift */,
+			);
+			path = TicketDemoUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C9D1501E2C2089E5002FB8CD /* TicketDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C9D150442C2089EB002FB8CD /* Build configuration list for PBXNativeTarget "TicketDemo" */;
+			buildPhases = (
+				C9D1501B2C2089E5002FB8CD /* Sources */,
+				C9D1501C2C2089E5002FB8CD /* Frameworks */,
+				C9D1501D2C2089E5002FB8CD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TicketDemo;
+			productName = TicketDemo;
+			productReference = C9D1501F2C2089E5002FB8CD /* TicketDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		C9D1502F2C2089EB002FB8CD /* TicketDemoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C9D150472C2089EB002FB8CD /* Build configuration list for PBXNativeTarget "TicketDemoTests" */;
+			buildPhases = (
+				C9D1502C2C2089EB002FB8CD /* Sources */,
+				C9D1502D2C2089EB002FB8CD /* Frameworks */,
+				C9D1502E2C2089EB002FB8CD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C9D150322C2089EB002FB8CD /* PBXTargetDependency */,
+			);
+			name = TicketDemoTests;
+			productName = TicketDemoTests;
+			productReference = C9D150302C2089EB002FB8CD /* TicketDemoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		C9D150392C2089EB002FB8CD /* TicketDemoUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C9D1504A2C2089EB002FB8CD /* Build configuration list for PBXNativeTarget "TicketDemoUITests" */;
+			buildPhases = (
+				C9D150362C2089EB002FB8CD /* Sources */,
+				C9D150372C2089EB002FB8CD /* Frameworks */,
+				C9D150382C2089EB002FB8CD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C9D1503C2C2089EB002FB8CD /* PBXTargetDependency */,
+			);
+			name = TicketDemoUITests;
+			productName = TicketDemoUITests;
+			productReference = C9D1503A2C2089EB002FB8CD /* TicketDemoUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C9D150172C2089E5002FB8CD /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1530;
+				LastUpgradeCheck = 1530;
+				TargetAttributes = {
+					C9D1501E2C2089E5002FB8CD = {
+						CreatedOnToolsVersion = 15.3;
+					};
+					C9D1502F2C2089EB002FB8CD = {
+						CreatedOnToolsVersion = 15.3;
+						TestTargetID = C9D1501E2C2089E5002FB8CD;
+					};
+					C9D150392C2089EB002FB8CD = {
+						CreatedOnToolsVersion = 15.3;
+						TestTargetID = C9D1501E2C2089E5002FB8CD;
+					};
+				};
+			};
+			buildConfigurationList = C9D1501A2C2089E5002FB8CD /* Build configuration list for PBXProject "TicketDemo" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = C9D150162C2089E5002FB8CD;
+			productRefGroup = C9D150202C2089E5002FB8CD /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C9D1501E2C2089E5002FB8CD /* TicketDemo */,
+				C9D1502F2C2089EB002FB8CD /* TicketDemoTests */,
+				C9D150392C2089EB002FB8CD /* TicketDemoUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C9D1501D2C2089E5002FB8CD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C9D1502B2C2089EA002FB8CD /* Preview Assets.xcassets in Resources */,
+				C9D150272C2089EA002FB8CD /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C9D1502E2C2089EB002FB8CD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C9D150382C2089EB002FB8CD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C9D1501B2C2089E5002FB8CD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C9D150252C2089E5002FB8CD /* ContentView.swift in Sources */,
+				C9D150232C2089E5002FB8CD /* TicketDemoApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C9D1502C2C2089EB002FB8CD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C9D150352C2089EB002FB8CD /* TicketDemoTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C9D150362C2089EB002FB8CD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C9D1503F2C2089EB002FB8CD /* TicketDemoUITests.swift in Sources */,
+				C9D150412C2089EB002FB8CD /* TicketDemoUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		C9D150322C2089EB002FB8CD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C9D1501E2C2089E5002FB8CD /* TicketDemo */;
+			targetProxy = C9D150312C2089EB002FB8CD /* PBXContainerItemProxy */;
+		};
+		C9D1503C2C2089EB002FB8CD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C9D1501E2C2089E5002FB8CD /* TicketDemo */;
+			targetProxy = C9D1503B2C2089EB002FB8CD /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		C9D150422C2089EB002FB8CD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		C9D150432C2089EB002FB8CD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+			};
+			name = Release;
+		};
+		C9D150452C2089EB002FB8CD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = TicketDemo/TicketDemo.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"TicketDemo/Preview Content\"";
+				DEVELOPMENT_TEAM = LN4JU8GNV7;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphoneos*]" = UIStatusBarStyleDefault;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
+				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 14.3;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Masse-Brian.TicketDemo";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		C9D150462C2089EB002FB8CD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = TicketDemo/TicketDemo.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"TicketDemo/Preview Content\"";
+				DEVELOPMENT_TEAM = LN4JU8GNV7;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphoneos*]" = UIStatusBarStyleDefault;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
+				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 14.3;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Masse-Brian.TicketDemo";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		C9D150482C2089EB002FB8CD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = LN4JU8GNV7;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				MACOSX_DEPLOYMENT_TARGET = 14.3;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Masse-Brian.TicketDemoTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TicketDemo.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/TicketDemo";
+			};
+			name = Debug;
+		};
+		C9D150492C2089EB002FB8CD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = LN4JU8GNV7;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				MACOSX_DEPLOYMENT_TARGET = 14.3;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Masse-Brian.TicketDemoTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TicketDemo.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/TicketDemo";
+			};
+			name = Release;
+		};
+		C9D1504B2C2089EB002FB8CD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = LN4JU8GNV7;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				MACOSX_DEPLOYMENT_TARGET = 14.3;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Masse-Brian.TicketDemoUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = TicketDemo;
+			};
+			name = Debug;
+		};
+		C9D1504C2C2089EB002FB8CD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = LN4JU8GNV7;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				MACOSX_DEPLOYMENT_TARGET = 14.3;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Masse-Brian.TicketDemoUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = TicketDemo;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C9D1501A2C2089E5002FB8CD /* Build configuration list for PBXProject "TicketDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C9D150422C2089EB002FB8CD /* Debug */,
+				C9D150432C2089EB002FB8CD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C9D150442C2089EB002FB8CD /* Build configuration list for PBXNativeTarget "TicketDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C9D150452C2089EB002FB8CD /* Debug */,
+				C9D150462C2089EB002FB8CD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C9D150472C2089EB002FB8CD /* Build configuration list for PBXNativeTarget "TicketDemoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C9D150482C2089EB002FB8CD /* Debug */,
+				C9D150492C2089EB002FB8CD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C9D1504A2C2089EB002FB8CD /* Build configuration list for PBXNativeTarget "TicketDemoUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C9D1504B2C2089EB002FB8CD /* Debug */,
+				C9D1504C2C2089EB002FB8CD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C9D150172C2089E5002FB8CD /* Project object */;
+}
