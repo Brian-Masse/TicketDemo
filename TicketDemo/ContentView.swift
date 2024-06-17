@@ -8,6 +8,7 @@
 import SwiftUI
 
 //MARK: Line
+@available(iOS 15.0, *)
 struct Line: Shape {
     func path(in rect: CGRect) -> Path {
         var path = Path()
@@ -20,6 +21,7 @@ struct Line: Shape {
 }
 
 //MARK: Ticket Shape
+@available(iOS 15.0, *)
 struct TicketShape: Shape {
     static func Corner(in rect: CGRect) -> Path {
         let inset = TicketView.ticketCornerInset
@@ -115,7 +117,7 @@ struct TicketShape: Shape {
 
 
 //MARK: Ticket
-struct Ticket {
+public struct Ticket {
     let id: String = UUID().uuidString
     
     let title: String
@@ -128,10 +130,20 @@ struct Ticket {
     
     let date: Date
     let price: String
+    
+    public init(title: String, description: String, name: String, phoneNumber: String, date: Date, price: String) {
+        self.title = title
+        self.description = description
+        self.name = name
+        self.phoneNumber = phoneNumber
+        self.date = date
+        self.price = price
+    }
 }
 
 //MARK: TicketView
-struct TicketView: View {
+@available(iOS 15.0, *)
+public struct TicketView: View {
     
 //    the position of where the ticket should be 'seperable' into the ticket stub
 //    normalized from the top
@@ -187,13 +199,13 @@ struct TicketView: View {
                     Text( ticket.title )
                         .textCase(.uppercase)
                         .font(.title)
-                        .bold()
+//                        .bold()
                     
                     Text( ticket.description )
                         .padding(.bottom, 15)
                     
                     Text( formatDate() )
-                        .bold()
+//                        .bold()
                         .font(.caption)
                     Spacer()
                 }
@@ -204,7 +216,7 @@ struct TicketView: View {
                 HStack {
                     VStack(alignment: .leading) {
                         Text( ticket.name )
-                            .bold()
+//                            .bold()
                         Text( ticket.phoneNumber )
                     }
                     
@@ -212,7 +224,7 @@ struct TicketView: View {
                     
                     Text( "$\(ticket.price)" )
                         .font(.headline)
-                        .bold()
+//                        .bold()
                 }
             }
         }
@@ -230,8 +242,12 @@ struct TicketView: View {
         }
     }
     
+    public init(ticket: Ticket) {
+        self.ticket = ticket
+    }
+    
 //    MARK: Body
-    var body: some View {
+    public var body: some View {
         GeometryReader { geo in
             ZStack {
                 TicketView.lightColor
@@ -274,7 +290,8 @@ struct TicketView: View {
 
 
 //MARK: ContentView
-struct ContentView: View {
+@available(iOS 15.0, *)
+private struct ContentView: View {
     
     let ticket = Ticket(title: "Full Meseum Access",
                         description: "Expore all the exhibitions of the BMFA as long as you want",
@@ -288,6 +305,6 @@ struct ContentView: View {
     }
 }
 
-#Preview {
-    ContentView()
-}
+//#Preview {
+//    ContentView()
+//}
